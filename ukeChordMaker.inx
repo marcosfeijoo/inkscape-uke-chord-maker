@@ -9,9 +9,9 @@
   <dependency type="executable" location="extensions">inkex.py</dependency>
    <param name="tab" type="notebook">
 	    <page name="tab1" _gui-text="Chord Maker">
-			  <_param name="titPagina" type="description">Uke Chord Maker</_param>
+            <_param name="titPagina" type="description">Uke Chord Maker</_param>
 
-			  <param name="trasteCero" type="boolean" _gui-text="Traste cero más grueso">true</param>
+            <param name="trasteCero" type="boolean" _gui-text="Traste cero más grueso">true</param>
 
 				  
 			<param name="tamCaja" type="enum" _gui-text="Tam de caja">
@@ -20,11 +20,10 @@
 				<item value="30">30</item>
 				<item value="40">40</item> 
 				<item value="50">50</item>  
-				<item value="100">100</item>  
+				<item value="100">100</item>
 				<item value="200">200</item>  
 				<item value="300">300</item>  	
-			  </param> 
-
+            </param> 
 			<param name="anchoLinea" type="enum" _gui-text="Ancho de linea">
 				<item value="2">2</item>			
 				<item value="4">4</item> 
@@ -32,7 +31,6 @@
 				<item value="8">8</item> 
 				<item value="10">10</item> 
 			</param> 
-			
 			<param name="cuerda4" type="enum" _gui-text="Cuerda 4">
 				<item value="0">0</item>
 				<item value="1">1</item>			
@@ -41,7 +39,6 @@
 				<item value="4">4</item> 
 				<item value="5">5</item> 
 			</param>
-			
 			<param name="cuerda3" type="enum" _gui-text="Cuerda 3">
 				<item value="0">0</item>
 				<item value="1">1</item>			
@@ -69,10 +66,7 @@
 			<param name="nombreAcordeEsp" type="string" _gui-text="Nombre del acorde"></param>
 			<param name="nombreAcordeIng" type="string" _gui-text="Nombre del acorde"></param>
 			<param name="impAyuda" type="boolean" _gui-text="Imprimir ayuda">true</param>
-			
-		</page>      
-    
-     
+		</page>
 	    <page name="tab2" _gui-text="Info">
 			  <_param name="titPagina" type="description">Uke Chord Maker</_param>
 			  <_param name="titPagina" type="description">v1.0 Mar 2015</_param>
